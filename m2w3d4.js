@@ -22,6 +22,13 @@
 // ESERCIZIO 12: Scrivi una funzione per cambiare il colore del prezzo di ogni prodotto in uno differente, ogni volta che viene invocata
 
 
-let title = document.getElementsByTagName("h1");
-title.innetText ="ShopSmart La spesa intelligente!";
-console.log(title);
+let title = document.getElementById("nome");
+nome.innerText ="ShopSmart la spesa intelligente!";
+let page = document.body.style.backgroundColor = "grey";
+let footer = document.getElementById("foot")
+foot.innerText ='ShopSmart! Vieni a trovarci in: Via Messina 42, Reggio Calabria';
+
+function colorPrice() {
+    let c = document.getElementsByClassName("prz");
+    c.style.color = "red";
+}
