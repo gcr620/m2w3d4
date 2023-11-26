@@ -22,3 +22,6 @@
 // ESERCIZIO 12: Scrivi una funzione per cambiare il colore del prezzo di ogni prodotto in uno differente, ogni volta che viene invocata
 
 
+let title = document.getElementsByTagName("h1");
+title.innetText ="ShopSmart La spesa intelligente!";
+console.log(title);
